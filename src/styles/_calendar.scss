@@ -21,10 +21,10 @@
     border: $calendar-day-border-size solid $calendar-day-border-color;
     font-family: $calendar-day-font;
     font-size: $text-size;
+    transition-duration: 0.5s;
 
     &:hover {
       cursor: pointer;
-      transition-duration: 0.5s;
       background-color: $background-day-color-hover;
       transform: translate(0, -20px);
     }
